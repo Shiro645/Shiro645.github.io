@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IN+Guides&family=Playwrite+NZ+Basic:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+footer { 
+    font-size: 70%;
+    font-family: 'Open Sans';
+    color: white;
+    background-color: #0F2B4D;
+    display: flex;
+}
+
+h1 { 
+    background-color: #93B96C;
+    font-family: Roboto;
+    margin: 0, auto;
+    text-align: center;
+    padding: 15px 10px 5px 10px;
+}
+
+a:link, a:visited, a:hover, a:active { 
+    color: #7A9DBD;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover { 
+    font-size: 120%;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px;
+    
+}
+
+table, td, th { 
+    border: 1px solid black;
+}
+
+td, th { 
+    padding: 5px;
+}
+
+th { 
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+
+.person { 
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(167, 167, 167);
+}
+
+.person-image { 
+    border-radius: 20px;
+}
+
+.person-name { 
+    text-align: center;
+}
+
+#pages { 
+    background-color: white;
+    color: #7A9DBD;
+}
+
+#flex-box { 
+    display: flex;
+    
+}
+
+#citation { 
+    font-family: 'Playwrite IN Guides';
+    font-size: 80%;
+}
+
+#author { 
+    font-family: 'Playwrite NZ Basic';
+    font-size: 80%;
+}
