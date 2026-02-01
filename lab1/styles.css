@@ -47,6 +47,11 @@ th {
     color: white;
 }
 
+q { 
+    font-family: 'Playwrite IN Guides';
+    font-size: 80%;
+}
+
 .person { 
     margin: 10px;
     border: 2px solid black;
@@ -70,11 +75,6 @@ th {
 #flex-box { 
     display: flex;
     
-}
-
-#citation { 
-    font-family: 'Playwrite IN Guides';
-    font-size: 80%;
 }
 
 #author { 
