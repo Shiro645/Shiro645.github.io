@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operating System</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Operating System</h1>
+    </header>
+    <div id="pages">
+        <hr>
+        <a class="page" href="index.html">General Overview</a>
+        <a class="page" href="roles.html">Roles</a>
+        <a class="on-page" href="components.html">Components</a>
+        <a class="page" href="types.html">Types</a>
+        <hr>
+    </div>
+    <div>
+        <h2>Components of an operating system</h2>
+        <div class="content-block" id="components">
+            <p>
+                An operating system is composed of several software elements, each with a specific role. Together, they
+                ensure the computer's proper functioning, security, and performance.
+            </p>
+            <div class="image-flexbox" id="components-images">
+                <div class="image">
+                    <img src="../ressources/images/hierarchy.jpg" alt="hierarchy">
+                    <h6 class="image-name">Hierarchy</h6>
+                </div>
+                <div class="image">
+                    <img src="../ressources/images/kernel.png" alt="kernel">
+                    <h6 class="image-name">Kernel</h6>
+                </div>
+                <div class="image">
+                    <img src="../ressources/images/file-system-structure.png" alt="file system structure">
+                    <h6 class="image-name">file System Structure</h6>
+                </div>
+            </div>
+        </div>
+        <div class="content-block-left" id="kernel">
+            <h3>1. The Kernel</h3>
+            <p>
+                The kernel is the heart of the operating system.
+                It is loaded into memory when the computer starts and remains constantly running.
+                <br>
+                <br>
+                Its main functions are :
+            </p>
+            <br>
+            <ol>
+                <li>processor management (scheduling of tasks)</li>
+                <li>memory management</li>
+                <li>the communication with the equipment via the pilots</li>
+                <li>the management of processes</li>
+            </ol>
+            <br>
+            <br>
+            <p>
+                The kernel operates in privileged mode, which allows it to directly access hardware, unlike
+                applications.
+            </p>
+        </div>
+        <div class="content-block-right" id="file-system">
+            <h3>2. The file system</h3>
+            <p>
+                The file system organizes and manages data stored on disks.
+                <br>
+                <br>
+                It defines how the files are:
+                named, stored, read and modified, protected.
+                <br>
+                Thanks to it, the user can work with files and folders, without worrying about the actual location
+                of the data on the disk.
+                <br>
+                Each OS can use different file systems (e.g. NTFS, ext4, APFS).
+            </p>
+        </div>
+        <div class="content-block-left" id="security">
+            <h3>3. Security</h3>
+            <p>
+                Security is an essential component of the operating system.
+                <br>
+                It allows controlling access to computer resources in order to avoid abuse or attacks.
+                <br>
+                <br>
+                This includes in particular:
+            </p>
+            <br>
+            <ul>
+                <li>the management of users and permissions</li>
+                <li>the protection of files and processes</li>
+                <li>the isolation between the programs</li>
+                <li>the prevention of unauthorized access</li>
+            </ul>
+            <br>
+            <p>
+                These mechanisms ensure that each user and application only accesses those resources to which they
+                are authorized.
+            </p>
+        </div>
+        <div class="content-block-right" id="network">
+            <h3>4. The network</h3>
+            <p>
+                The network component allows the computer to communicate with other machines via local networks or
+                the Internet.
+                <br>
+                <br>
+                He manages: the sending and receiving of data, the network protocols, the connections between remote
+                applications.
+                <br>
+                <br>
+                Thanks to this component, functions such as web browsing, file sharing or online communications
+                are possible.
+            </p>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <strong>About</strong>
+        <br>
+        Project realized by Paul Traissac
+        <br>
+        <br>
+        <strong>Sources</strong>
+        <br>
+        <a class="footer-link" href="https://en.wikipedia.org/wiki/Operating_system">Wikipedia - <em>Operating
+                System</em></a>
+        <br>
+        <a class="footer-link" href="https://en.wikiversity.org/wiki/Operating_system">Wikiversity - <em>Operating
+                System</em></a>
+        <br>
+        <a class="footer-link" href="https://openbookproject.net/courses/intro2ict/system/os_intro.html">OpenBookProject
+            - <em>Operating
+                System</em></a>
+        <br>
+        <br>
+        <strong>Technologies</strong>
+        <br>
+        HTML • CSS
+        <br>
+        <br>
+        <strong>Disclaimer :</strong> This site is for educationnal purposes
+        <br>
+        <br>
+        2026 - Pedagogical Project
+    </footer>
+</body>
+
+</html>

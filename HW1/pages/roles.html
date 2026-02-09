@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operating System</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Operating System</h1>
+    </header>
+    <div id="pages">
+        <hr>
+        <a class="page" href="index.html">General Overview</a>
+        <a class="on-page" href="roles.html">Roles</a>
+        <a class="page" href="components.html">Components</a>
+        <a class="page" href="types.html">Types</a>
+        <hr>
+    </div>
+    <div>
+        <h2>Roles</h2>
+        <div class="content-block" id="roles-general">
+            <p>
+                An operating system performs several essential functions that allow the computer to function
+                efficiently, stably, and securely.
+            </p>
+            <div class="image-flexbox">
+                <div class="image">
+                    <img src="../ressources/images/overview.resmgt.gif" alt="overview">
+                    <h6>Overview</h6>
+                </div>
+                <div class="image">
+                    <img src="../ressources/images/kernel-relation.png" alt="kernel relation">
+                    <h6>The kernel relation with the hardware and the applications</h6>
+                </div>
+                <div class="image">
+                    <img src="../ressources/images/multitasking.webp" alt="multitasking">
+                    <h6>Multitasking</h6>
+                </div>
+            </div>
+        </div>
+        <div class="content-block" id="ressource-management">
+            <h3>Ressource Management</h3>
+            <p>
+                One of the main roles of an OS is the management of computer hardware resources.
+                It decides which program uses which resource, when and for how long.
+                <br>
+                This concerns in particular:
+            </p>
+            <ul>
+                <li>the CPU (processor): program execution time</li>
+                <li>random access memory (RAM): memory space allocated to each application
+                </li>
+                <li> the inputs/outputs: keyboard, mouse, screen, discs, printers
+                </li>
+            </ul>
+            <br>
+            <p>
+                The OS acts as an arbiter: it prevents one program from monopolizing all resources or interfering with
+                others. This ensures the stability of the system and avoids software conflicts.
+            </p>
+        </div>
+        <div class="content-block" id="interface">
+            <h3>Interface between hardware and software</h3>
+            <p>
+                The operating system acts as a bridge between hardware and programs.
+                Applications do not communicate directly with the processor, memory or peripherals: they pass through
+                the OS.
+            </p>
+            <br>
+            Thanks to this abstraction:
+            <ul>
+                <li> the developers do not need to know the technical details of the hardware
+                </li>
+                <li> the same program can run on different machines
+                </li>
+                <li> the material is used in a safer and controlled way.
+                </li>
+            </ul>
+            <br>
+            <p>
+                Without this interface, each application would have to manage the hardware itself, making software much
+                more complex to develop.
+            </p>
+        </div>
+        <div class="content-block" id="multitasking">
+            <h3>Multitasking</h3>
+            <p>
+                A modern operating system allows multitasking, i.e. running several programs at the same time.
+                <br>
+                In reality:
+                the processor alternates very quickly between tasks,
+                each program has the illusion of running continuously,
+                the OS plans the order and execution time of each process.
+                <br>
+                This mechanism allows, for example:
+                to listen to music while browsing the Internet,
+                to download a file while another program is running or
+                to use several applications without blocking the system.
+            </p>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <strong>About</strong>
+        <br>
+        Project realized by Paul Traissac
+        <br>
+        <br>
+        <strong>Sources</strong>
+        <br>
+        <a class="footer-link" href="https://en.wikipedia.org/wiki/Operating_system">Wikipedia - <em>Operating System</em></a>
+        <br>
+        <a class="footer-link" href="https://en.wikiversity.org/wiki/Operating_system">Wikiversity - <em>Operating System</em></a>
+        <br>
+        <a class="footer-link" href="https://openbookproject.net/courses/intro2ict/system/os_intro.html">OpenBookProject - <em>Operating
+                System</em></a>
+        <br>
+        <br>
+        <strong>Technologies</strong>
+        <br>
+        HTML • CSS
+        <br>
+        <br>
+        <strong>Disclaimer :</strong> This site is for educationnal purposes
+        <br>
+        <br>
+        2026 - Pedagogical Project
+    </footer>
+</body>
+
+</html>

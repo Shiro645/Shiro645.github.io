@@ -1,0 +1,157 @@
+/* ALL */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* HEADER */
+
+header {
+    background-color: #1E40AF;
+    padding: 30px;
+    text-align: center;
+}
+
+/* NAVIGATION */
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+.on-page {
+    text-decoration: underline;
+}
+
+.page:hover {
+    font-size: 120%;
+}
+
+/* CONTENT BLOCK */
+
+#components {
+    align-items: center;
+}
+
+.content-block {
+    padding: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.content-block-right {
+    padding: 50px;
+    border: 2px solid black;
+    text-align: right;
+    margin: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.content-block-left {
+    padding: 50px;
+    border: 2px solid black;
+    text-align: left;
+    margin: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+#desktop-os,
+#mobile-os,
+#rtos,
+#server-os {
+    padding: 15px;
+    background-image: url("../ressources/images/background-image.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    color: white;
+}
+
+/* IMAGES */
+
+.image-flexbox {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+}
+
+.image {
+    margin: 20px;
+    border-radius: 40px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.image-on-left,
+.image-on-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.image-next-to-text {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.text-next-to-image {
+    flex: 1;
+    /* IMPORTANT */
+    max-width: 60%;
+}
+
+/* FOOTER*/
+
+footer {
+    background-color: #1E293B;
+    color: white;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.footer-link {
+    color: lightgrey;
+}
+
+.footer-link:link {
+    color: lightgrey;
+}
+
+.footer-link:visited {
+    color: lightgrey;
+}
+
+.footer-link:hover {
+    color: lightgrey;
+}
+
+.footer-link:active {
+    color: lightgrey;
+}
