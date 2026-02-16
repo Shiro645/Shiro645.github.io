@@ -1,0 +1,49 @@
+body { 
+    background-image: url("../img/background.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-items: center;
+}
+
+header { 
+    text-align: center;
+    background-color: aquamarine;
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+}
+
+#main { 
+    margin: auto;
+    width: 100%;
+    background-color: mediumaquamarine;
+    text-align: center;
+    width: 40%;
+    padding: 20px;
+}
+
+table, th, td { 
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 10px auto 10px auto;
+    padding: 5px;
+}
+
+#attemptsLeft { 
+    font-size: 120%;
+}
+
+#enterAGuess { 
+    font-size: 150%;
+}
+
+#winTitle { 
+    background-color: darkgreen;
+    color: white;
+}
+
+#lossesTitle { 
+    background-color: darkred;
+    color: white;
+}
