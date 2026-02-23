@@ -209,7 +209,7 @@ function gameOver() {
     document.querySelector("#testedWords").remove();
     let testedWords = document.createElement("div");
     testedWords.id = "testedWords";
-    document.querySelector("body").append(testedWords);
+    document.querySelector("#main").append(testedWords);
 }
 
 function appendWord() { 
