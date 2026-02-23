@@ -11,26 +11,28 @@
 
 <body>
     <h1>Wordle</h1>
-    <div>
-        <input id="userInput" type="text">
-        <button id="guessButton">Guess</button>
+    <div id="main">
+        <div>
+            <input id="userInput" type="text">
+            <button id="guessButton">Guess</button>
+        </div>
+        <button id="getHintButton">Get Hint</button>
+        <span id="feedback"></span>
+        <div id="result">
+            <div id="firstLetter"></div>
+            <div id="secondLetter"></div>
+            <div id="thirdLetter"></div>
+            <div id="fourthLetter"></div>
+            <div id="fifthLetter"></div>
+        </div>
+        <div>
+            <span id="winSpan"></span>
+            <span id="looseSpan"></span>
+        </div>
+        <div id="hint"></div>
+        <button id="retryButton">Retry</button>
+        <div id="testedWords"></div>
     </div>
-    <button id="getHintButton">Get Hint</button>
-    <span id="feedback"></span>
-    <div id="result">
-        <div id="firstLetter"></div>
-        <div id="secondLetter"></div>
-        <div id="thirdLetter"></div>
-        <div id="fourthLetter"></div>
-        <div id="fifthLetter"></div>
-    </div>
-    <div>
-        <span id="winSpan"></span>
-        <span id="looseSpan"></span>
-    </div>
-    <div id="hint"></div>
-    <button id="retryButton">Retry</button>
-    <div id="testedWord"></div>
 </body>
 
 </html>

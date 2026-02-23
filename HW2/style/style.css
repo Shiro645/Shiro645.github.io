@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body { 
+    text-align: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+h1 { 
+    font-weight: bold;
+    font-family: Oswald;
+}
+
+#main { 
+    font-size: large;
+    background-color: gainsboro;
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: inset;
+}
+
+#getHintButton { 
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 0;
+    font-size: 12px;
+    margin: 7px;
+}
+
+#retryButton { 
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    margin: 12px;
+}
