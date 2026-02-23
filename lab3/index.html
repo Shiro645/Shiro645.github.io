@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+    <h1>Quiz</h1>
+    <p id="tries"></p>
+    <div id="quiz">
+        1. What is the css property that changes the text color ?
+        <br>
+        <p id="question1-answer"></p>
+        <div id="imageResultQ1"></div>
+        <br>
+        <label><input type="radio" name="q1" value="font-color">font-color</label>
+        <label><input type="radio" name="q1" value="answer2">text-color</label>
+        <label><input type="radio" name="q1" value="answer3">color</label>
+        <br>
+        2. What is your favorite Pokemon ?
+        <br>
+        <p id="question2-answer"></p>
+        <div id="imageResultQ2"></div>
+        <br>
+        <input id="text-box" type="text">
+        <br>
+        3. What is the metroidvania Game ?
+        <br>
+        <p id="question3-answer"></p>
+        <div id="imageResultQ3"></div>
+        <br>
+        <select name="GAME" id="dropdown">
+            <option value="good-answer">Hollow Knight</option>
+            <option value="answer2">Celeste</option>
+            <option value="bad-game">Overwatch</option>
+        </select>
+        <br>
+        4. How many States are in the US ?
+        <br>
+        <p id="question4-answer"></p>
+        <div id="imageResultQ4"></div>
+        <br>
+        <input type="number" id="number" name="number" min="1" max="100">
+        <br>
+        5. Which are Romance Anime ?
+        <br>
+        <p id="question5-answer"></p>
+        <div id="imageResultQ5"></div>
+        <br>
+        <input type="checkbox" id="checkbox1" value="good">
+        <label for="checkbox1">A silent Voice</label>
+        <input type="checkbox" id="checkbox2" value="good">
+        <label for="checkbox2">Chainsaw Man</label>
+        <input type="checkbox" id="checkbox3" value="good">
+        <label for="checkbox3">Your Name</label>
+    </div>
+    <br>
+    <button id="submitButton">Submit Quiz</button>
+    <button id="retryButton">Retry</button>
+    <br>
+    <p id="result"></p>
+    <br>
+    <p id="congrats"></p>
+</body>
+
+</html>

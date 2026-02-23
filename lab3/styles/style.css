@@ -1,0 +1,34 @@
+body {
+    align-items: center;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+#tries {
+    border: 2px solid black;
+    width: 50px;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(167, 167, 167);
+}
+
+#quiz {
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color: rgb(167, 167, 167);
+    width: 700px;
+    padding: 30px;
+}
+
+#submitButton, #retryButton {
+    width: 200px;
+    font-size: 24px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+}
+
