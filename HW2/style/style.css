@@ -17,6 +17,9 @@ h1 {
     border: 2px solid black;
     border-radius: 50px;
     box-shadow: inset;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
 }
 
 #getHintButton { 
